@@ -15,3 +15,12 @@ What belongs in your starter kit?
 - Automated build
 - Automated deployment
 - Working example app
+
+Localtunnel to share app
+1. npm install localtunnel -g
+2. start the app ('node buildScripts/srcServer.js')
+3. lt -port 3000
+    a. alternatively: lt --port 3000 --subdomain cory
+4. share generated url
+
+Ngrok requires a bit more setup, but you can secure the app on the other end.
